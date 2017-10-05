@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER WPBakery hello@wpbakery.com
 RUN apt-get update \
 && apt-get install -y software-properties-common \
-&& apt-get install -y php5-mcrypt php56-cli php56-mysql php56-curl \
+&& apt-get install -y php56 php56-mcrypt php56-cli php56-mysql php56-curl \
 && apt-get install -y git \
 && apt-get install -y curl \
 && apt-get install -y --force-yes apt-transport-https \

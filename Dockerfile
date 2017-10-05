@@ -11,7 +11,6 @@ RUN apt-get update \
 && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
 && npm install -g bower \
 && npm install -g gulp \
-&& apt-get remove -y software-properties-common apt-transport-https curl \
 && apt-get autoremove -y \
 && apt-get clean
 

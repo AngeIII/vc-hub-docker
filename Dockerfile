@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-MAINTAINER WPBakery hello@wpbakery.com
+FROM ubuntu:18.04
+MAINTAINER WPBakery pavel@visualcomposer.com
 
 ENV DEBIAN_FRONTEND noninteractive
 

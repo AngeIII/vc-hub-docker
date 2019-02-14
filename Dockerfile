@@ -4,7 +4,7 @@ MAINTAINER WPBakery pavel@visualcomposer.com
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN rm -rf /etc/apt/sources.list.d/ondrej-php-*
-RUN apt-get update && apt-get install -y python-software-properties software-properties-common
+RUN apt-get update && apt-get install -y software-properties-common
 RUN DEBIAN_FRONTEND=noninteractive LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends curl git
